@@ -1,0 +1,151 @@
+.img{
+    width: 1500px;
+    height: 540px;
+}
+.coffee{
+    width: 1200px;
+    height: 340px;
+}
+.cof{
+    width: 1200px;
+    height: 270px;
+}
+.caf{
+    width: 1200px;
+    height: 300px;
+}
+.row{
+    width: 1485px;
+    display: flex;
+}
+.img1 img{
+height: 300px;
+width: 500px;
+}
+#quick{
+    display: flex;
+}
+.border{
+    background-color: rgb(85, 235, 85);
+    border-radius: 10px;
+    margin-left: 40px;
+}
+.btn1{margin-left: 555px;
+border: 2px black solid;
+padding: 10px;
+border-radius: 10px;
+background-color: aqua;}
+
+
+.img22{
+    width: 1500px;
+    height: 552px;
+}
+
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 10%;
+   
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+   
+    height: 100px;
+  
+}
+
+#check{
+    display: none;
+}
+.icons{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    right: 5%;
+   display: none;
+   cursor: pointer;
+}
+.navbar a{
+    font-size: 1.15rem;
+    color: white;
+ text-decoration: none;
+ margin-left: 1.5rem;
+
+}
+.navbar a:hover{
+    color: olive;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:390px){
+    .img{
+        width: 1500px;
+        height: 250px;
+    }
+    .row{
+        width: 397px;
+    }
+    #quick{
+        display: block;
+    }
+    .img1 img{
+        height: 300px;
+        width: 500px;
+        margin-left: -15px;
+        }
+        .img1 h1{
+            margin-left: -15px;
+            width: 301px;
+
+        }
+        .border{
+            margin-left: 95px;
+        }
+    .btn1{
+        margin-left: 130px;
+    }
+
+
+    #header{
+        height: 90px;
+        width: 780px;
+    }
+   
+  
+    .icons{
+        display: flex;
+        margin-right: 30px;
+        color: white;
+    }
+    #closeicon{
+        display: none;
+        color: white;
+
+    }
+    .log{
+        margin-left: -70px;
+        margin-top: 7px;
+        width: 100px;
+        height: 92px;
+    }
+
+   
+
+ 
+    
+}
