@@ -81,6 +81,9 @@ background-color: aqua;}
     color: olive;
     text-decoration: underline;
 }
+.container1{
+    display: flex;
+}
 
 
 
@@ -142,6 +145,14 @@ background-color: aqua;}
         margin-top: 7px;
         width: 100px;
         height: 92px;
+    }
+    .car{
+        height: 130px;
+      
+    }
+    .container1{
+        display: block;
+        text-align: center;
     }
 
    
